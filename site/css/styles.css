@@ -1,0 +1,263 @@
+/*----------------------------------NAVBAR + TITLE ---------------------------------*/
+
+body, .feature-title, .testimonials-text, .pricing-title, .card-title, .cta-header {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.features-text, .pricing-subtitle, .card-text, .copyright {
+    font-size: 1rem;
+}
+
+.features-text, .pricing-subtitle, .per-month, .card-text, .copyright {
+    color: #808080
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15% 9% !important;
+}
+
+
+.title-header {
+    font-family: 'Montserrat-Heavy', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder !important;
+    line-height: 1;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.phone-screenshot {
+    width: 70%;
+    margin-left: 50px;
+    -webkit-transform:rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.navbar {
+    margin-bottom: 50px;
+    margin-top: -25px;
+    margin-right: -70px;
+}
+
+
+.container-fluid {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+
+}
+
+.navbar-brand {
+    font-size: 1.5rem !important;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.download-btn {
+    margin-right: 5px;
+    margin-top: 35px;
+}
+
+/*---------------------------------------- FEATURES -----------------------------*/
+
+#features {
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 125px;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-icon {
+    font-size:50px; 
+    color:#ff4c68;
+    margin-bottom: 12px;
+}
+
+.feature-icon:hover {
+    color: #ff93a4;
+}
+
+.feature-title {
+    letter-spacing: -1px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.features-text {
+    line-height: 1;
+}
+
+/*----------------------------------TESTIMONIAL----------------------------*/
+
+#testimonials {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.testimonials-text {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+
+.testimonials-img {
+    width: 12%;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-bottom: 35px;
+}
+
+.carousel-item {
+    padding: 70px 15%;
+}
+
+#title, .title-header, .navbar-brand, #testimonials, .carousel-btn, .cta-header {
+    color: #f6f6f6;
+}
+
+/*----------------------------PRESS---------------------------------------*/
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 35px 50px;
+}
+
+/*-----------------------------------PRICING-------------------------------*/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-title {
+    font-size: 2rem;
+    letter-spacing: 2;
+    padding: 5px;
+}
+
+.pricing-subtitle {
+    font-family: "Montserrat-light", sans-serif;
+    margin-bottom: 50px;
+}
+
+
+.price-column {
+    padding: 3% 3%;
+}
+
+.card {
+    height: 360px;
+}
+
+.card-text {
+    line-height: 0.5;
+    font-family: "Montserrat-light", sans-serif;
+}
+
+.card-header {
+    font-family: "Montserrat-heavy", sans-serif;
+    font-size: 2.5rem;
+}
+
+.card-title {
+    font-size: 5rem;
+    font-weight: bolder !important;
+    margin-bottom: 20px !important;
+}
+
+/*---------------------------------CALL TO ACTION -----------------------------------*/
+#cta {
+    padding: 50px 0 85px;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-header {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 50px 120px 0;
+    color: #f6f6f6;
+    margin-bottom: 10px;
+}
+
+/*-----------------------FOOTER ----------------------------------------------*/
+
+#footer {
+    background-color: #ffffff;
+    padding: 75px;
+    text-align: center;
+}
+
+.footer-icon {
+    margin: 10px;
+    color:#474747;
+    size:36px;
+}
+
+/*------------------------------MEDIA QUERIES------------------------------*/
+@media (max-width: 1030px) {
+    .phone-screenshot {
+        position: static;
+        padding-top: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-transform:rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .navbar {
+        margin-bottom: 10px;
+    }
+
+
+    .title-header {
+        font-size: 2.5rem;
+    }
+
+    .download-btn {
+        padding-top: 0;
+        margin-top: 0;
+        display: inline-block
+    }
+
+    .card-text {
+        line-height: 1;
+    }
+
+    .cta-header {
+        font-size: 2rem;
+        padding-bottom: 25px;
+    }
+}
